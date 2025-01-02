@@ -17,16 +17,16 @@ const achievementsList = [
   },
   {
     prefix: "~",
-    metric: "Users",
-    value: "100,000",
+    metric: "Blogs",
+    value: "100",
   },
   {
-    metric: "Awards",
-    value: "7",
+    metric: "Certifications",
+    value: "3",
   },
   {
     metric: "Years",
-    value: "5",
+    value: "1",
   },
 ];
 

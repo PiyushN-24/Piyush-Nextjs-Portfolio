@@ -9,12 +9,12 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li>Linux</li>
+        <li>AWS</li>
+        <li>Jenkins</li>
+        <li>Docker</li>
+        <li>Podman</li>
+        <li>Kubernetes</li>
       </ul>
     ),
   },
@@ -23,8 +23,15 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>
+          Priydarshani Bhagwati College of Engineering, Nagpur. <span className="font-semibold">2019 - 2023</span><br />
+          <span className="italic">BE - Computer Science & Engineering.</span>
+        </li>
+        <br/>
+        <li>
+          Lal Bahadur Shastri Junior College, Bhandara. <span className="font-semibold">2018 - 2019</span><br />
+          <span className="italic"> HSC - Science.</span>
+        </li>
       </ul>
     ),
   },
@@ -33,8 +40,36 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>
+          <a 
+            href="https://www.credly.com/badges/2a7cc7e1-e275-43a8-82f9-14805213c48b/public_url" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-white hover:bg-clip-text hover:text-purple-500 hover-gradient transition duration-300"
+          >
+            Red Hat Certified System Administrator (RHCSA)
+          </a>
+        </li>
+        <li>
+          <a 
+            href="https://www.credly.com/badges/b395ad98-9ed2-4cbd-93af-1fabf8328097/public_url" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-white hover:bg-clip-text hover:text-purple-500 hover-gradient transition duration-300"
+          >
+            Red Hat Certified Engineer (RHCE)
+          </a>
+        </li>
+        <li>
+          <a 
+            href="https://www.credly.com/badges/c8dd6e2d-a917-48c7-932d-cbd82241df80/public_url" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-white hover:bg-clip-text hover:text-purple-500 hover-gradient transition duration-300"
+          >
+            Red Hat Certified Specialist in Containers (RHCSC)
+          </a>
+        </li>
       </ul>
     ),
   },
@@ -57,12 +92,12 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+                  I am a DevOps Engineer and Cloud Engineer focused on optimizing systems and 
+          enhancing operational efficiency. Experienced in automation and CI/CD, I work 
+          with tools like Docker, Jenkins, AWS, and Ansible. I thrive in collaborative 
+          environments and continuously seek to expand my skills. Excited to contribute 
+          to innovative projects, I aim to help organizations achieve their goals through 
+          effective infrastructure management.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
