@@ -8,8 +8,10 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
+      <ul className="list-disc pl-2 columns-2">
         <li>Linux</li>
+        <li>Ansible</li>
+        <li>Puppet</li>
         <li>AWS</li>
         <li>Jenkins</li>
         <li>Docker</li>
@@ -25,12 +27,12 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>
           Priydarshani Bhagwati College of Engineering, Nagpur. <span className="font-semibold">2019 - 2023</span><br />
-          <span className="italic">BE - Computer Science & Engineering.</span>
+          <span>BE - Computer Science & Engineering.</span>
         </li>
         <br/>
         <li>
           Lal Bahadur Shastri Junior College, Bhandara. <span className="font-semibold">2018 - 2019</span><br />
-          <span className="italic"> HSC - Science.</span>
+          <span> HSC - Science.</span>
         </li>
       </ul>
     ),
