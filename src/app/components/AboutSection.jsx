@@ -21,6 +21,18 @@ const TAB_DATA = [
     ),
   },
   {
+    title: "Experience",
+    id: "experience",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>
+          Dhandhania Infotech <span className="font-semibold">Nov-2024</span><br />
+          <span>System Adminitsrator.</span>
+        </li>
+      </ul>
+    ),
+  },
+  {
     title: "Education",
     id: "education",
     content: (
@@ -102,26 +114,19 @@ const AboutSection = () => {
           effective infrastructure management.
           </p>
           <div className="flex flex-row justify-start mt-8">
-            <TabButton
-              selectTab={() => handleTabChange("skills")}
-              active={tab === "skills"}
-            >
-              {" "}
-              Skills{" "}
+            <TabButton selectTab={() => handleTabChange("experience")} active={tab === "experience"} >
+              {" "}Experience{" "}
+            </TabButton>
+            <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"} >
+              {" "}Skills{" "}
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("education")}
-              active={tab === "education"}
-            >
-              {" "}
-              Education{" "}
+              selectTab={() => handleTabChange("education")} active={tab === "education"} >
+              {" "}Education{" "}
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
-            >
-              {" "}
-              Certifications{" "}
+              selectTab={() => handleTabChange("certifications")} active={tab === "certifications"} >
+              {" "}Certifications{" "}
             </TabButton>
           </div>
           <div className="mt-8">
